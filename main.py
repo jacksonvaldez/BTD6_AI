@@ -5,7 +5,7 @@ import pdb
 from neural_network import NeuralNetwork
 import math
 
-params_path = 'mutated'
+params_path = 'trained'
 
 layer1weights1 = np.load(f"{params_path}_params/layer1weights1.npy")
 layer1weights2 = np.load(f"{params_path}_params/layer1weights2.npy")
