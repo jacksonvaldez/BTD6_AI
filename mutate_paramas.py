@@ -20,7 +20,7 @@ layer4weights2 = np.load('trained_params/layer4weights2.npy')
 layer4biases1 = np.load('trained_params/layer4biases1.npy')
 layer4biases2 = np.load('trained_params/layer4biases2.npy')
 
-mutation_rate = 0.000000001
+mutation_rate = 0.00001
 
 layer1weights1_gradient = np.random.uniform(-mutation_rate, mutation_rate, (3, 16))
 layer1weights2_gradient = np.random.uniform(-mutation_rate, mutation_rate, (1609632, 16))
