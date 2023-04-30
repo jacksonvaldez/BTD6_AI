@@ -30,10 +30,10 @@ layer4biases2 = np.load(f"{params_path}_params/layer4biases2.npy")
 neural_net = NeuralNetwork(layer1weights1, layer1weights2, layer1biases1, layer1biases2, layer2weights1, layer2biases1, layer3weights1, layer3weights2, layer3weights3, layer3biases1, layer3biases2, layer3biases3, layer4weights1, layer4weights2, layer4biases1, layer4biases2)
 
 towers = np.load('game_state/towers.npy')
-balance = input("Please enter user balance: ")
-balance = int(balance)
 lives = input("Please enter user lives: ")
 lives = int(lives)
+balance = input("Please enter user balance: ")
+balance = int(balance)
 current_round = input("Please enter the current round: ")
 current_round = int(current_round)
 
